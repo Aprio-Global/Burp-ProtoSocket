@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="protosocket.core.ProtobufFieldTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-12-05T00:27:19.439Z" hostname="kali" time="0.056">
+  <properties/>
+  <testcase name="toString provides readable representation for simple field" classname="protosocket.core.ProtobufFieldTest" time="0.026"/>
+  <testcase name="Constructor creates simple field without nested fields" classname="protosocket.core.ProtobufFieldTest" time="0.003"/>
+  <testcase name="Message type information can be set and retrieved" classname="protosocket.core.ProtobufFieldTest" time="0.003"/>
+  <testcase name="Constructor creates field with nested fields" classname="protosocket.core.ProtobufFieldTest" time="0.002"/>
+  <testcase name="Wire type names are correctly mapped" classname="protosocket.core.ProtobufFieldTest" time="0.004"/>
+  <testcase name="Field name can be set and retrieved" classname="protosocket.core.ProtobufFieldTest" time="0.0"/>
+  <testcase name="Field type can be set and retrieved" classname="protosocket.core.ProtobufFieldTest" time="0.001"/>
+  <testcase name="toString provides readable representation for nested field" classname="protosocket.core.ProtobufFieldTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="protosocket.schema.ProtoSchemaManagerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-12-05T00:27:19.500Z" hostname="kali" time="1.586">
+  <properties/>
+  <testcase name="Get stats returns correct counts" classname="protosocket.schema.ProtoSchemaManagerTest" time="1.472"/>
+  <testcase name="Can register FileDescriptor and retrieve by name" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.037"/>
+  <testcase name="Clear removes all schemas" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.009"/>
+  <testcase name="Can retrieve message descriptor by fully qualified name" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.007"/>
+  <testcase name="RequireSchemasLoaded succeeds when schemas loaded" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.006"/>
+  <testcase name="RequireSchemasLoaded throws when no schemas" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.007"/>
+  <testcase name="Can retrieve message descriptor by simple name" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.005"/>
+  <testcase name="Initially no schemas are loaded" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.003"/>
+  <testcase name="Get all message type names returns all registered types" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.003"/>
+  <testcase name="Search paths can be added and retrieved" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.003"/>
+  <testcase name="Returns null for unknown message type" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.001"/>
+  <testcase name="Last selected schema can be tracked" classname="protosocket.schema.ProtoSchemaManagerTest" time="0.002"/>
+  <system-out><![CDATA[[TEST LOG] Registered proto file: messages.proto (2 message types)
+[TEST LOG] Registered proto file: test.proto (1 message types)
+[TEST LOG] Registered proto file: user.proto (1 message types)
+[TEST LOG] Cleared all proto schemas and message cache
+[TEST LOG] Registered proto file: user.proto (1 message types)
+[TEST LOG] Registered proto file: user.proto (1 message types)
+[TEST LOG] Registered proto file: user.proto (1 message types)
+[TEST LOG] Registered proto file: messages.proto (2 message types)
+[TEST LOG] Added proto search path: /path/to/protos
+[TEST LOG] Added proto search path: /another/path
+[TEST LOG] Remembered schema for auto-apply: User
+[TEST LOG] Remembered schema for auto-apply: Post
+[TEST LOG] Cleared all proto schemas and message cache
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/kali/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.10/90ed94ac044ea8953b224304c762316e91fd6b31/byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
